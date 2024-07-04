@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9fafc;
+    color: #ededf0;
+    line-height: 1.6;
+   
+}/* header styles */
+header {
+    background-color: #f7f7f7;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #00aaff;
+}
+
+.logo span {
+    font-size: 1.8rem;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+header nav .nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+header nav .nav-list li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav .nav-list a {
+    text-decoration: none;
+    color: #00aaff;
+    font-size: 1.1rem;
+}
+
+header nav .nav-list a:hover {
+    color: #fff;
+}
+/* sign up style */
