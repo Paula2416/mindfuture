@@ -51,67 +51,12 @@ header nav .nav-list a {
 header nav .nav-list a:hover {
     color: #fff;
 }
-/* sign up style */
-.container {
-    width: 100%;
-    max-width: 600px; 
-    margin: 20px;
-}
-
-
-.main {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
-    margin-bottom: 20px; 
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-control {
-    margin-bottom: 20px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input[type="email"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.error {
-    color: red;
-    font-size: 14px;
-}
-
-.button {
-    background-color: #007bff; 
-    color: #fff;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.button:hover {
-    background-color: #0056b3; 
-}
 /*hero image section */
 #hero-image {
     position: relative;
     text-align: center;
     color: white;
-    background: url('assets/images/hero.jpg') no-repeat center center/cover;
+   background-image: url(../assets/images/hero.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -524,6 +469,61 @@ main {
 
 .call-to-action .button:hover {
     background-color: #e0e0e0;
+}
+/* sign up style */
+.container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 20px;
+}
+
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #0056b3; 
 }
 
 /* Footer styling */
